@@ -9,7 +9,7 @@ import os
 st.set_page_config(layout="wide", page_title="Math Draw Solver")
 
 genai.configure(api_key=os.getenv("API_KEY"))
-model = genai.GenerativeModel("gemini-1.5-flash")
+model = genai.GenerativeModel("gemini-robotics-er-1.5-preview")
 
 # ================= UI =================
 st.title("✍️ Vẽ bài toán để giải")
